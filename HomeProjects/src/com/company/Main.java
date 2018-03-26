@@ -41,7 +41,7 @@ public class Main {
 
        HashMap<Character, String> alphabetEncryption = new HashMap<>();
         alphabetEncryption.put('а', "\u00a5") ;
-        alphabetEncryption.put('б', "2");
+        alphabetEncryption.put('б', "B");
         alphabetEncryption.put('в',  "\u03F4");
         alphabetEncryption.put('г', "3");
         alphabetEncryption.put('ґ', "4" );
