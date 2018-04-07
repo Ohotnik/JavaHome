@@ -15,12 +15,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="24" selection-start-line="24" selection-end-line="28" />
+            <state relative-caret-position="639">
+              <caret line="90" column="38" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#GetDecipherAlphabet#0;class#Main#0" />
-                <element signature="method#GetAlphabet#0;class#Main#0" />
+                <element signature="method#SetupOldAlphabet#0;class#Main#0" />
               </folding>
             </state>
           </provider>
@@ -106,13 +105,14 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32893497" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32893497" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -121,15 +121,14 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399623" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32925683" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32893497" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32893497" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -137,18 +136,39 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#SetupOldAlphabet#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" selection-start-line="24" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#GetDecipherAlphabet#0;class#Main#0" />
-            <element signature="method#GetAlphabet#0;class#Main#0" />
+            <element signature="method#SetupOldAlphabet#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#SetupOldAlphabet#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -159,8 +179,7 @@
           <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#GetDecipherAlphabet#0;class#Main#0" />
-            <element signature="method#GetAlphabet#0;class#Main#0" />
+            <element signature="method#SetupOldAlphabet#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -171,8 +190,7 @@
           <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#GetDecipherAlphabet#0;class#Main#0" />
-            <element signature="method#GetAlphabet#0;class#Main#0" />
+            <element signature="method#SetupOldAlphabet#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -183,8 +201,7 @@
           <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#GetDecipherAlphabet#0;class#Main#0" />
-            <element signature="method#GetAlphabet#0;class#Main#0" />
+            <element signature="method#SetupOldAlphabet#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -194,8 +211,7 @@
         <state>
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#GetDecipherAlphabet#0;class#Main#0" />
-            <element signature="method#GetAlphabet#0;class#Main#0" />
+            <element signature="method#SetupOldAlphabet#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -205,8 +221,7 @@
         <state>
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#GetDecipherAlphabet#0;class#Main#0" />
-            <element signature="method#GetAlphabet#0;class#Main#0" />
+            <element signature="method#SetupOldAlphabet#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -216,8 +231,7 @@
         <state>
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#GetDecipherAlphabet#0;class#Main#0" />
-            <element signature="method#GetAlphabet#0;class#Main#0" />
+            <element signature="method#SetupOldAlphabet#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -227,8 +241,7 @@
         <state>
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#GetDecipherAlphabet#0;class#Main#0" />
-            <element signature="method#GetAlphabet#0;class#Main#0" />
+            <element signature="method#SetupOldAlphabet#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -238,8 +251,7 @@
         <state>
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#GetDecipherAlphabet#0;class#Main#0" />
-            <element signature="method#GetAlphabet#0;class#Main#0" />
+            <element signature="method#SetupOldAlphabet#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -253,12 +265,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="24" selection-start-line="24" selection-end-line="28" />
+        <state relative-caret-position="639">
+          <caret line="90" column="38" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#GetDecipherAlphabet#0;class#Main#0" />
-            <element signature="method#GetAlphabet#0;class#Main#0" />
+            <element signature="method#SetupOldAlphabet#0;class#Main#0" />
           </folding>
         </state>
       </provider>

@@ -17,7 +17,9 @@ public class Main {
         String text = in.nextLine();
         String encr = "";
         for (int i = 0; i < text.length(); i++) {
-            encr += cipherAlphabet.get(text.charAt(i));
+            Character symbolToEncrypt = text.charAt(i);
+            Character newSymbol = Character.toLowerCase(symbolToEncrypt);
+            encr += cipherAlphabet.get(newSymbol);
         }
 
         System.out.println("Encrypted string is : " + encr);
@@ -35,11 +37,11 @@ public class Main {
         HashMap<Character, Character> alphabetDecryption = new HashMap<>();
         for (Character i : cipherAlphabet.keySet()) {
             Character key = cipherAlphabet.get(i);
-            if (!alphabetDecryption.containsKey(key)) {
+            if (!alphabetDecryption.containsKey(key))  {
                 alphabetDecryption.put(key, i);
             } else
             {
-                return null;
+
             }
         }
         return alphabetDecryption;
@@ -47,6 +49,8 @@ public class Main {
 
     private static HashMap<Character, Character> GetAlphabet()
     {
+
+
         HashMap<Character, Character> alphabetEncryption = new HashMap<>();
         alphabetEncryption.put(' ', ' ');
         alphabetEncryption.put('а', '\u0168');
@@ -76,13 +80,15 @@ public class Main {
         alphabetEncryption.put('ф', '\u2C17');
         alphabetEncryption.put('х', '\u254B');
         alphabetEncryption.put('ц', 'Ц');
-        alphabetEncryption.put('ч', 'u');
+        alphabetEncryption.put('ч', 'y');
         alphabetEncryption.put('ш', '\u1783');
         alphabetEncryption.put('щ', '\u1784');
         alphabetEncryption.put('ь', '\u24D1');
         alphabetEncryption.put('ю', 'Ю');
         alphabetEncryption.put('я', 'я');
-
+        alphabetEncryption.put('u', 'u');
+        alphabetEncryption.put('n', 'n');
+        alphabetEncryption.put('l', 'l');
         return alphabetEncryption;
     }
 
@@ -124,5 +130,15 @@ public class Main {
         alphabetEncryption.put('ь', "\u24D1");
         alphabetEncryption.put('ю', "Ю");
         alphabetEncryption.put('я', "я");
+
     }
+
+
+
+
+
+
+
+
+
 }
