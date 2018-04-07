@@ -41,7 +41,7 @@ public class Main {
                 alphabetDecryption.put(key, i);
             } else
             {
-
+                return null;
             }
         }
         return alphabetDecryption;

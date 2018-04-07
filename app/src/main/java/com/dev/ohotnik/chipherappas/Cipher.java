@@ -10,7 +10,14 @@ public class Cipher {
 
         String encr = "";
         for (int i = 0; i < text.length(); i++) {
-            encr += cipherAlphabet.get(text.charAt(i));
+            Character symbol = text.charAt(i);
+            symbol = Character.toLowerCase(symbol);
+
+            Character encrChar = cipherAlphabet.get(symbol);
+
+            if (encrChar != null) {
+                encr += encrChar;
+            }
         }
 
         return encr;
@@ -21,9 +28,19 @@ public class Cipher {
         HashMap<Character, Character> cipherAlphabet = GetAlphabet();
         HashMap<Character, Character> decipherAlphabet = GetDecipherAlphabet(cipherAlphabet);
 
+
         String decr = "";
         for (int i = 0; i < text.length(); i++) {
-            decr += decipherAlphabet.get(text.charAt(i));
+
+            Character symbol = text.charAt(i);
+            Character encrChar = decipherAlphabet.get(symbol);
+
+            if (encrChar != null) {
+                decr += encrChar;
+            }
+
+            // decr += decipherAlphabet.get(text.charAt(i));
+
         }
 
         return decr;
@@ -31,6 +48,7 @@ public class Cipher {
 
     private static HashMap<Character,Character> GetDecipherAlphabet(HashMap<Character,Character> cipherAlphabet) {
         HashMap<Character, Character> alphabetDecryption = new HashMap<>();
+
         for (Character i : cipherAlphabet.keySet()) {
             Character key = cipherAlphabet.get(i);
             if (!alphabetDecryption.containsKey(key)) {
